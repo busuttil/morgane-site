@@ -1,7 +1,7 @@
 import React from 'react';
 import Meta from '../modules/meta';
 import Link from 'gatsby-link';
-import './contact.css';
+import './contact.scss';
 
 const metadata = {
   title: 'Contacts | Psychologue clinicienne | Morgane Laroche',
