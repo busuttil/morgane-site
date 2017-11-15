@@ -33,10 +33,10 @@ const Contact = () => (
 
           <ul className="contact-item__list">
             <li>
-              <a className='container__block-link' href='tel:+33674318234'>Tél: 06.74.31.82.34 </a>
+              <a className='container__block-link' href='tel:+33674318234'><span>Tél:</span> 06.74.31.82.34 </a>
             </li>
             <li>
-              <a className='container__block-link' href='mailto:psychologue.morgane.laroche@gmail.com'>E-mail: psychologue.morgane.laroche@gmail.com</a>
+              <a className='container__block-link container__block-link--ellipsis' href='mailto:psychologue.morgane.laroche@gmail.com'><span>E-mail:</span> psychologue.morgane.laroche@gmail.com</a>
             </li>
           </ul>
 

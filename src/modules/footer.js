@@ -36,7 +36,7 @@ const Footer = () => (
           <img src={logoPhone} alt='numéro de téléphone' />
         </div>
         <a className='footer__container-link' href='tel:+33674318234'>Tél: 06.74.31.82.34 </a>
-        <a className='footer__container-link' href="mailto:psychologue.morgane.laroche@gmail.com">psychologue.morgane.laroche@gmail.com</a>
+        <a className='footer__container-link footer__container-link--ellipsis' href="mailto:psychologue.morgane.laroche@gmail.com">psychologue.morgane.laroche@gmail.com</a>
       </div>
     </div>
   </div>

@@ -135,9 +135,24 @@
   font-weight: 700;
   color: $theme-color-1;
 
+  @include at-media('<small') {
+    span {
+      white-space: pre;
+    }
+  }
+
   &:hover,
   &:focus {
     text-decoration: underline;
+  }
+}
+
+.container__block-link--ellipsis {
+  @include at-media('<small') {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 250px;
+    display: block;
   }
 }
 

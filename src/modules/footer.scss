@@ -66,6 +66,15 @@
   }
 }
 
+.footer__container-link--ellipsis {
+  @include at-media('<small') {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 200px;
+    display: block;
+    margin: auto;
+  }
+}
 .item__content {
   margin: auto;
   height: 70px;
