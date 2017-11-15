@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import logoCalendar from '../images/calendar.svg';
 import logoLocation from '../images/location.svg';
 import logoPhone from '../images/phone.svg';
-import './footer.css';
+import './footer.scss';
 
 const Footer = () => (
   <div className='footer'>

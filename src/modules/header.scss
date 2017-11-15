@@ -1,4 +1,4 @@
-@import './styles/variables.scss';
+@import '../styles/variables.scss';
 
 .header {
   position: absolute;
@@ -37,7 +37,7 @@
     top: 10px;
     left: 10px;
 
-    background-image: url('./images/menu.svg');
+    background-image: url('../images/menu.svg');
     width: 20px;
     height: 20px;
   }
@@ -51,7 +51,7 @@
   background-color: rgba(159, 143, 117, 0.90);
 
   .header__menu-icons {
-    background-image: url('./images/cross.svg');
+    background-image: url('../images/cross.svg');
   }
 
   .header__menu {

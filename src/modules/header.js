@@ -5,8 +5,7 @@ import classNames from 'classnames';
 
 import Head from './head';
 
-import './App.css';
-import '../styles/container.css';
+import './header.scss';
 
 class Header extends Component {
   constructor() {
