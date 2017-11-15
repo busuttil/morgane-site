@@ -1,0 +1,86 @@
+.header {
+  position: absolute;
+  width: 100%;
+  height: 70px;
+  z-index: 50;
+  background-color: #9F8F75; }
+  @media (max-width: 1023px) {
+    .header {
+      top: 10px;
+      height: 0; } }
+  .header.header--fixed {
+    position: fixed;
+    top: 0; }
+
+.header__menu {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  list-style: none; }
+  @media (max-width: 1023px) {
+    .header__menu {
+      display: none;
+      background-color: rgba(159, 143, 117, 0.9);
+      flex-direction: column; } }
+
+@media (max-width: 1023px) {
+  .header__menu-icons {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-image: url("../images/menu.svg");
+    width: 20px;
+    height: 20px; } }
+
+.header--opened {
+  position: fixed;
+  top: 0;
+  height: 0;
+  height: 100%;
+  background-color: rgba(159, 143, 117, 0.9); }
+  .header--opened .header__menu-icons {
+    background-image: url("../images/cross.svg"); }
+  .header--opened .header__menu {
+    display: flex; }
+  .header--opened .header__menu-item:nth-child(1) {
+    margin-top: 40px; }
+
+.header__menu-item {
+  flex-grow: 1;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  transition: all 0.3s ease-in; }
+  @media (min-width: 750px) {
+    .header__menu-item {
+      display: flex; }
+      .header__menu-item:hover, .header__menu-item:focus {
+        background-color: #493D31; } }
+  .header__menu-item a {
+    font-family: "Crimson Text", serif;
+    font-size: 22px;
+    text-decoration: none;
+    color: #DBDAD5; }
+    @media (min-width: 750px) {
+      .header__menu-item a {
+        width: 100%;
+        height: 100%;
+        padding-top: 20px; } }
+    @media (max-width: 749px) {
+      .header__menu-item a {
+        text-transform: uppercase;
+        font-size: 18px; } }
+    .header__menu-item a > span {
+      display: block; }
+
+@media (min-width: 750px) {
+  .header__menu-item:nth-child(2) a {
+    padding-top: 4px; } }
+
+.header__menu-item--selected {
+  background-color: #493D31; }
+  @media (max-width: 749px) {
+    .header__menu-item--selected {
+      background-color: inherit; }
+      .header__menu-item--selected a {
+        color: #493D31; } }

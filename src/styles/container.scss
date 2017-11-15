@@ -1,0 +1,174 @@
+@import './variables.scss';
+
+.container {
+  margin: 40px auto 60px;
+  width: 100%;
+  max-width: 1024px;
+  padding: 0 10px;
+  position: relative;
+
+  @include at-media('<medium') {
+    margin: 20px auto 40px;
+    padding: 0 20px;
+  }
+}
+
+@include at-media('>=medium') {
+  .container--page {
+    margin: 140px auto 60px;
+  }
+}
+
+.container__content {
+  display: flex;
+  align-items: center;
+
+  @include at-media('<medium') {
+    flex-direction: column;
+  }
+
+  .container__illustration {
+    flex: 0 1 auto;
+
+    img {
+      width: 380px;
+
+      @include at-media('<medium') {
+        width: 100%;
+        margin-bottom: 40px;
+      }
+    }
+  }
+  .container__block {
+    flex: 1;
+  }
+}
+
+.container--withimage {
+  .container__content {
+    align-items: inherit;
+  }
+}
+
+.container__block-intro {
+  margin-left: 60px;
+
+  @include at-media('<medium') {
+    margin-left: 0;
+  };
+}
+
+.container__content.container__content-therapie {
+  .container__illustration-left {
+    img {
+      width: 480px;
+
+      @include at-media('<medium') {
+        width: 100%;
+      }
+    }
+  }
+
+  .container__block-right {
+    flex: 1;
+    margin-left: 30px;
+    @include at-media('<medium') {
+      margin-top: 20px;
+      margin-left: 0;
+    }
+  }
+}
+
+.container__block-bottom {
+  margin-top: 10px;
+}
+
+.container__block-title {
+  font-weight: 700;
+  color: $theme-color-2;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+
+  @include at-media('<medium') {
+    margin-bottom: 20px;
+    font-size: 26px;
+    line-height: 32px;
+  }
+}
+
+.container__block-title--nomarge {
+  margin-bottom: 0;
+}
+
+.container__block-subtitle {
+  margin: 40px 0 10px;
+  font-weight: 700;
+  color: $theme-color-1;
+
+  @include at-media('<medium') {
+    line-height: 26px;
+  }
+}
+
+.container__block-slogan {
+  text-align: center;
+  margin: 20px 0;
+  padding: 10px 20px 40px;
+  border: 2px solid $theme-color-1;
+
+  .slogan__content {
+    position: relative;
+  }
+  @include at-media('>=medium') {
+    span {
+      position: absolute;
+      right: 40px;
+    }
+  }
+  span {
+    font-size: 18px;
+  }
+}
+
+.container__block-link {
+  text-decoration: none;
+  font-weight: 700;
+  color: $theme-color-1;
+
+  &:hover,
+  &:focus {
+    text-decoration: underline;
+  }
+}
+
+.container__content-list {
+  padding-left: 20px;
+  list-style: none;
+
+  li:before {
+    content: '';
+    display: block;
+    width: 7px;
+    height: 7px;
+    margin-right: 5px;
+    background-color: $theme-color-1;
+    position: relative;
+    left: -20px;
+    top: 20px;
+
+    @include at-media('<medium') {
+      top: 15px;
+    };
+  }
+}
+
+.container__block-contact {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  list-style: none;
+
+  @include at-media('<medium') {
+    flex-direction: column;
+  }
+}

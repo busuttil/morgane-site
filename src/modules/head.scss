@@ -1,0 +1,51 @@
+@import '../styles/variables.scss';
+
+.head {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 300px;
+}
+
+.head__content-title {
+  font-family: $font-allura;
+  font-size: 55px;
+
+  @include at-media ('<medium') {
+    font-size: 40px;
+  }
+}
+
+.head__content-description {
+  font-size: 28px;
+  color: $theme-color-2;
+
+  @include at-media ('<medium') {
+    font-size: 22px;
+  }
+}
+
+.head__content-information {
+  font-size: 24px;
+
+  @include at-media ('<medium') {
+    font-size: 18px;
+  }
+}
+
+.head__content-separator {
+  display: none;
+
+  @include at-media ('<medium') {
+    display: block;
+    position: absolute;
+    bottom: 10%;
+
+    background-color: $theme-color-1;
+    width: 80%;
+    height: 2px;
+    padding: 0 20px;
+  }
+}

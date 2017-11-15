@@ -1,0 +1,34 @@
+@import '../../node_modules/include-media/dist/include-media';
+
+// Theme
+$theme-color-1: #9F8F75;
+$theme-color-2: #493D31;
+$theme-color-3: #DBDAD5;
+$theme-color-4: #000000;
+
+// Fonts
+$font-crimson: 'Crimson Text', serif;
+$font-allura: 'Allura', cursive;
+
+// Breakpoints
+$breakpoints: (
+  tiny: 480px,
+  small: 568px,
+  medium: 750px,
+  intermediate: 1024px,
+  large: 1280px,
+);
+
+// Override of include-media mixin to forbid dangerous operators
+@mixin at-media($conditions...) {
+  @each $condition in $conditions {
+    $operator: get-expression-operator($condition);
+    @if index(('<=', '≤', '>'), $operator) {
+      @error '#{$operator} is not allowed in at-media(#{$condition}).';
+    }
+  }
+
+  @include media($conditions...) {
+    @content;
+  }
+}

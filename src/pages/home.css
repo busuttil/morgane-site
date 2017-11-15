@@ -1,0 +1,39 @@
+.mea {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 800px;
+  background-image: url("../images/cover.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  padding: 0 10px; }
+  @media (max-width: 749px) {
+    .mea {
+      background-image: url("../images/cover_mobile.jpg");
+      height: 600px; } }
+
+.mea__slogan {
+  position: relative; }
+  .mea__slogan span {
+    position: absolute;
+    right: 20px;
+    font-size: 20px; }
+    @media (max-width: 749px) {
+      .mea__slogan span {
+        left: 0;
+        right: 0;
+        text-align: center;
+        font-weight: 700; } }
+
+.slogan {
+  font-family: "Allura", cursive;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 60px; }
+  @media (max-width: 749px) {
+    .slogan {
+      font-size: 40px;
+      line-height: 50px;
+      text-align: center; } }

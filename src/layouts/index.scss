@@ -1,0 +1,81 @@
+@import './styles/variables.scss';
+
+body {
+	background-color: $theme-color-3;
+	color: $theme-color-4;
+
+	font-family: $font-crimson;
+}
+
+ul {
+	font-family: $font-crimson;
+}
+
+p:not([class]) {
+	text-align: justify;
+}
+
+p, ul {
+  font-size: 22px;
+  line-height: 30px;
+
+  @include at-media('<medium') {
+    margin-bottom: 20px;
+    font-size: 18px;
+		line-height: 20px;
+  }
+}
+
+// Reset
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+
+  &::after,
+  &::before {
+    box-sizing: border-box;
+  }
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+img {
+  vertical-align: middle;
+}
+
+
+// Utils
+
+.u-justify-left {
+  text-align: left;
+}
+
+.u-bold {
+  font-weight: 700;
+}
+
+.u-italic {
+  font-style: italic;
+}
+
+.u-list-style {
+  list-style: none;
+}
+
+.u-paragraphe {
+  margin-bottom: 20px;
+  text-align: justify;
+}
+.u-mb {
+  margin-bottom: 60px;
+}
+
+.u-highlight {
+  color: $theme-color-1;
+  margin-top: 20px;
+}

@@ -1,0 +1,122 @@
+@import './styles/variables.scss';
+
+.header {
+  position: absolute;
+  width: 100%;
+  height: 70px;
+  z-index: 50;
+  background-color: $theme-color-1;
+
+
+  @include at-media('<intermediate') {
+    top: 10px;
+    height: 0;
+  }
+
+  &.header--fixed {
+    position: fixed;
+    top: 0;
+  }
+}
+
+.header__menu {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  list-style: none;
+
+  @include at-media('<intermediate') {
+    display: none;
+    background-color: rgba(159, 143, 117, 0.90);
+    flex-direction: column;
+  }
+}
+@include at-media('<intermediate') {
+  .header__menu-icons {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+
+    background-image: url('./images/menu.svg');
+    width: 20px;
+    height: 20px;
+  }
+}
+
+.header--opened {
+  position: fixed;
+  top: 0;
+  height: 0;
+  height: 100%;
+  background-color: rgba(159, 143, 117, 0.90);
+
+  .header__menu-icons {
+    background-image: url('./images/cross.svg');
+  }
+
+  .header__menu {
+    display: flex;
+  }
+
+  .header__menu-item:nth-child(1) {
+    margin-top: 40px;
+  }
+}
+
+.header__menu-item {
+  flex-grow: 1;
+
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  transition: all 0.3s ease-in;
+
+  @include at-media('>=medium') {
+    display: flex;
+
+    &:hover,
+    &:focus, {
+      background-color: $theme-color-2;
+    }
+  }
+  a {
+    font-family: $font-crimson;
+    font-size: 22px;
+
+    text-decoration: none;
+    color: $theme-color-3;
+
+    @include at-media('>=medium') {
+      width: 100%;
+      height: 100%;
+      padding-top: 20px;
+    }
+
+    @include at-media('<medium') {
+      text-transform: uppercase;
+      font-size: 18px;
+    }
+
+    > span {
+      display: block;
+    }
+  }
+}
+
+@include at-media('>=medium') {
+  .header__menu-item:nth-child(2) {
+    a {
+      padding-top: 4px;
+    }
+  }
+}
+
+.header__menu-item--selected {
+  background-color: $theme-color-2;
+  @include at-media('<medium') {
+    background-color: inherit;
+    a {
+      color: $theme-color-2;
+    }
+  }
+}
