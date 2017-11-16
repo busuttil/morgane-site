@@ -10,21 +10,21 @@ const Meta = ({ title, description }) => {
 
   return (
     <Helmet>
-      <html lang="fr" amp />
+      <html lang="fr" hrefLang="fr" amp />
       <meta charSet='utf-8' />
       <title>{title}</title>
       <meta name='description' content={description} />
-      <meta name="keywords" content='psychologue, psy, psychotherapie, rhone-alpes, lyon, cabinet psychologue, 69002, lyon, psychotherapie adulte,
+      <meta name='keywords' content='psychologue, psy, psychotherapie, rhone-alpes, lyon, cabinet psychologue, 69002, lyon, psychotherapie adulte,
         psychotherapie enfant, psychotherapie adolescent, psychotherapie ado, therapie adulte, therapie enfant, therapie adolescent,
         consulter un professionnel, souffrance, mal être, difficultés, accompagnement, soutien psychologique,
         thérapie, changement, cadre, neutralité, confidentialité, consultations individuelles'
       />
-      <meta name='author' content='Morgane Laroche' />
+      <meta itemProp="name" name='author' content='Morgane Laroche' />
       <meta name="robots" content='follow, index' />
       <meta name="copyright" content='Nicolas Busuttil' />
-      <meta name="email" content="psychologue.morgane.laroche@gmail.com" />
+      <meta itemProp='email' name='email' content='psychologue.morgane.laroche@gmail.com' />
       <link rel='canonical' href={canonical} />
-      <link rel="icon" href={favicon} type="image/x-icon" />
+      <link rel='icon' href={favicon} type='image/x-icon' />
       <script async src="https://www.googletagmanager.com/gtag/js?id=UA-109554894-1"></script>
       <link href="https://fonts.googleapis.com/css?family=Allura" rel="stylesheet" />
       <link href="https://fonts.googleapis.com/css?family=Crimson+Text:400,700" rel="stylesheet" />

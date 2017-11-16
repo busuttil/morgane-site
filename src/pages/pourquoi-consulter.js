@@ -14,7 +14,7 @@ const PourquoiConsulter = () => (
   		<h1 className='container__block-title'>POURQUOI CONSULTER ?</h1>
   		<div className='container__content'>
   			<div className='container__illustration'>
-  				<img src={illustration} alt='pourquoi consulter' />
+  				<img itemProp='image' src={illustration} alt='pourquoi consulter' />
   			</div>
   			<div className='container__block container__block-intro'>
   				<p className='u-paragraphe'>

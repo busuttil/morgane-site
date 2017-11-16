@@ -22,7 +22,7 @@ const Contact = () => (
           />
         </div>
         <div className='contact-item'>
-          <ul className='contact-item__list'>
+          <ul className='contact-item__list'  itemProp='address' itemScope itemType='http://schema.org/PostalAddress'>
             <li>
               47 Rue de la bourse
             </li>
@@ -33,10 +33,10 @@ const Contact = () => (
 
           <ul className="contact-item__list">
             <li>
-              <a className='container__block-link' href='tel:+33674318234'><span>Tél:</span> 06.74.31.82.34 </a>
+              <a className='container__block-link' href='tel:+33674318234' itemProp='telephone'><span>Tél:</span> 06.74.31.82.34 </a>
             </li>
             <li>
-              <a className='container__block-link container__block-link--ellipsis' href='mailto:psychologue.morgane.laroche@gmail.com'><span>E-mail:</span> psychologue.morgane.laroche@gmail.com</a>
+              <a className='container__block-link container__block-link--ellipsis' href='mailto:psychologue.morgane.laroche@gmail.com' itemProp='email'><span>E-mail:</span> psychologue.morgane.laroche@gmail.com</a>
             </li>
           </ul>
 

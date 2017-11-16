@@ -13,7 +13,7 @@ const Therapie = () => (
     <h1 className='container__block-title'>LES ÉTAPES DE LA THÉRAPIE</h1>
     <div className='container__content container__content-therapie'>
       <div className='container__illustration-left'>
-        <img src={illustration} alt='les étapes de la thérapie' />
+        <img itemProp='image' src={illustration} alt='les étapes de la thérapie' />
       </div>
       <div className='container__block-right'>
         <p className='u-paragraphe'>
