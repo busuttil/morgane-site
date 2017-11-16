@@ -31,9 +31,9 @@ const IndexPage = () => (
   				Face aux difficultés que tout individu peut être amené à rencontrer au cours de sa vie, il est parfois nécessaire de
   				demander l’aide d’un professionnel.
   			</p>
-  			<p className='u-paragraphe'>
+  			<h2 className='u-paragraphe u-text__mea'>
   				Le psychologue est le professionnel qui intervient lorsque vous ressentez une souffrance, un mal-être.
-  			</p>
+  			</h2>
   			<p className='u-paragraphe'>
   				Il peut vous accompagner dans une <span className='u-bold'>difficulté ponctuelle</span> (certains parleraient de « thérapie de soutien ») en
   				vous aidant à mobiliser vos ressources psychiques, vos capacités d’adaptation et en vous aidant à mettre en
@@ -49,12 +49,12 @@ const IndexPage = () => (
   			<p className='u-paragraphe'>Je vous reçois en
   				<span className='u-bold'> consultations individuelles (enfants, adolescents, adultes)</span> les Lundis après-midi, Mercredis et Samedis matin.
   			</p>
-  			<p className='u-paragraphe'>
+  			<h2 className='u-paragraphe u-text__mea'>
   				Mon cabinet se situe à Cordeliers, dans&nbsp;
   				<Link className='container__block-link' target='_blank' to='http://www.tcl.fr/var/tcl/storage/original/application/3874382c3c5c6bca67ba94b1e528062a.pdf'>
             le deuxième arrondissement de Lyon.
   				</Link>
-  			</p>
+  			</h2>
   		</div>
   	</div>
   </div>
