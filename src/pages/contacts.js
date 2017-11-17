@@ -42,7 +42,7 @@ const Contact = () => (
 
           <ul className='contact-item__list'>
             <li>Numéro ADELI : 699336418</li>
-            <li>Numéro Siret :</li>
+            <li>Numéro Siret : 833 159 585 00011</li>
           </ul>
         </div>
       </div>

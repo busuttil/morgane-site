@@ -5,7 +5,7 @@ import Meta from '../modules/meta';
 import './home.css';
 
 const metadata = {
-  title: 'Psychologue clinicienne | Morgane Laroche | Cordeliers, Lyon 2ème',
+  title: 'Psychologue Clinicienne | Morgane Laroche | Cordeliers, Lyon 2ème',
   description: 'Je vous reçois en consultations individuelles (enfants, adolescents, adultes) sur rendez-vous, les Lundis après-midi, Mercredis et Samedis matin. Les consultations ont lieu dans mon cabinet situé au 47 Rue de la bourse, dans le deuxième arrondissement de Lyon, à deux pas de l’arrêt de métro Cordeliers.'
 };
 

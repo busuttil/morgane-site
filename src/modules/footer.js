@@ -1,9 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import JsonLd from './jsonLd';
 
 import logoCalendar from '../images/calendar.svg';
 import logoLocation from '../images/location.svg';
 import logoPhone from '../images/phone.svg';
+
 import './footer.scss';
 
 const Footer = () => (
@@ -39,6 +41,7 @@ const Footer = () => (
         <a className='footer__container-link footer__container-link--ellipsis' href="mailto:psychologue.morgane.laroche@gmail.com" itemProp='email'>psychologue.morgane.laroche@gmail.com</a>
       </div>
     </div>
+    <JsonLd />
   </div>
 );
 

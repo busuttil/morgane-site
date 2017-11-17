@@ -1,17 +1,26 @@
 import React from 'react';
 import Helmet from 'react-helmet';
 import favicon from '../images/favicon.ico';
+import cover from '../images/cover.jpg';
 
 const Meta = ({ title, description }) => {
+  const image = `http://psychologue-morganelaroche.fr${cover}`;
   let canonical;
   if (typeof window !== `undefined`) {
    canonical = document.location.href;
   }
 
+
   return (
     <Helmet>
       <html lang="fr" hrefLang="fr" amp />
       <meta charSet='utf-8' />
+      <meta property="og:title" content={title} />
+      <meta property="og:type" content="website" />
+      <meta property="og:description" content={description} />
+      <meta property="og:url" content={canonical} />
+      <meta property="og:image" content={image} />
+      <meta property="og:image:alt" content="Morgane Laroche Psychologue Clinicienne" />
       <title>{title}</title>
       <meta name='description' content={description} />
       <meta name='keywords' content='psychologue, psy, psychotherapie, rhone-alpes, lyon, cabinet psychologue, 69002, lyon, psychotherapie adulte,
