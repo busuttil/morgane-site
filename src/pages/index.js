@@ -2,7 +2,7 @@ import React from 'react';
 import Link from 'gatsby-link';
 import Meta from '../modules/meta';
 
-import './home.css';
+import './home.scss';
 
 const metadata = {
   title: 'Psychologue Clinicienne | Morgane Laroche | Cordeliers, Lyon 2ème',

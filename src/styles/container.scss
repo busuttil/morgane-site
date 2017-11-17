@@ -185,5 +185,6 @@
 
   @include at-media('<medium') {
     flex-direction: column;
+    align-items: left;
   }
 }
