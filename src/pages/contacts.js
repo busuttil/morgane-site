@@ -5,7 +5,7 @@ import './contact.scss';
 
 const metadata = {
   title: 'Contacts | Psychologue clinicienne | Morgane Laroche',
-  description: 'Morgane Laroche Psychologue Clinicienne à Lyon Enfants - Adolescents - Adultes'
+  description: 'Adresse du cabinet. Coordonnées. Plan d’accès. Lien du site. Matricules.'
 };
 
 const Contact = () => (

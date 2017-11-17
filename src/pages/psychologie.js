@@ -4,7 +4,7 @@ import Link from 'gatsby-link';
 
 const metadata = {
   title: 'Qu\'est-ce qu\'un psychologue clinicien ? | Psychologue clinicienne | Morgane Laroche',
-  description: 'Morgane Laroche Psychologue Clinicienne à Lyon Enfants - Adolescents - Adultes'
+  description: 'Quelles sont les champs et les modalités d\'intervention du psychologue clinicien ? Description du cadre thérapeutique. Déontologie et principes fondamentaux.'
 };
 
 const Psychologue = () => (

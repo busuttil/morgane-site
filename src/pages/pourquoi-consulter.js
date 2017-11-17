@@ -4,7 +4,7 @@ import Meta from '../modules/meta';
 
 const metadata = {
   title: 'Pourquoi consulter ? | Psychologue clinicienne | Morgane Laroche',
-  description: 'Morgane Laroche Psychologue Clinicienne à Lyon Enfants - Adolescents - Adultes'
+  description: 'Quelles émotions, situations ou événements de vie peuvent nous conduire à venir consulter un psychologue ? Une liste non-exhaustive. Spécificité de cette démarche.'
 };
 
 const PourquoiConsulter = () => (

@@ -4,7 +4,7 @@ import Meta from '../modules/meta';
 
 const metadata = {
   title: 'Les étapes de la thérapie | Psychologue clinicienne | Morgane Laroche',
-  description: 'Morgane Laroche Psychologue Clinicienne à Lyon Enfants - Adolescents - Adultes'
+  description: 'Comment se déroule la première consultation ? Faire connaissance. Définir et clarifier votre demande. Définir un cadre. Durée de la thérapie.'
 };
 
 const Therapie = () => (

@@ -4,7 +4,7 @@ import Link from 'gatsby-link';
 
 const metadata = {
   title: 'Me connaitre | Psychologue clinicienne | Morgane Laroche',
-  description: 'Morgane Laroche Psychologue Clinicienne à Lyon Enfants - Adolescents - Adultes'
+  description: 'Ma formation. Spécialisations, approches et méthodes. Quelques axes de travail.'
 };
 
 const MeConnaitre = () => (

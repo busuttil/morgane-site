@@ -3,7 +3,7 @@ import Meta from '../modules/meta';
 
 const metadata = {
   title: 'Qui consulter ? | Psychologue clinicienne | Morgane Laroche',
-  description: 'Morgane Laroche Psychologue Clinicienne à Lyon Enfants - Adolescents - Adultes'
+  description: 'Soins psychiques : différents professionnels. Quels sont-ils ? Quels sont leurs champs et leurs modalités d\'intervention ? Quelles formations ont-ils suivies ?'
 };
 
 const QuiConsulter = () => (

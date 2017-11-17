@@ -3,7 +3,7 @@ import Meta from '../modules/meta';
 
 const metadata = {
   title: 'Tarifs | Psychologue clinicienne | Morgane Laroche',
-  description: 'Morgane Laroche Psychologue Clinicienne à Lyon Enfants - Adolescents - Adultes'
+  description: 'Tarifs. Modalités de paiement. Remboursement des consultations. Retards et Annulations.'
 };
 
 const Tarifs = () => (
