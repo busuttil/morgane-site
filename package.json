@@ -6,9 +6,11 @@
   "dependencies": {
     "classnames": "^2.2.5",
     "gatsby": "^1.9.110",
-    "include-media": "1.4.9",
     "gatsby-link": "^1.6.27",
-    "gatsby-plugin-react-helmet": "^1.0.8"
+    "gatsby-plugin-google-analytics": "^1.0.12",
+    "gatsby-plugin-google-tagmanager": "^1.0.8",
+    "gatsby-plugin-react-helmet": "^1.0.8",
+    "include-media": "1.4.9"
   },
   "license": "MIT",
   "main": "n/a",

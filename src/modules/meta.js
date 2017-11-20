@@ -34,7 +34,6 @@ const Meta = ({ title, description }) => {
       <meta itemProp='email' name='email' content='psychologue.morgane.laroche@gmail.com' />
       <link rel='canonical' href={canonical} />
       <link rel='icon' href={favicon} type='image/x-icon' />
-      <script async src="https://www.googletagmanager.com/gtag/js?id=UA-109554894-1"></script>
       <link href="https://fonts.googleapis.com/css?family=Allura" rel="stylesheet" />
       <link href="https://fonts.googleapis.com/css?family=Crimson+Text:400,700" rel="stylesheet" />
     </Helmet>
