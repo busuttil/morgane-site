@@ -3,7 +3,7 @@ import Meta from '../modules/meta';
 import Link from 'gatsby-link';
 
 const metadata = {
-  title: 'Qu\'est-ce qu\'un psychologue clinicien ? | Psychologue clinicienne | Morgane Laroche',
+  title: 'Qu\'est-ce qu\'un psychologue clinicien ? | Psychologue clinicienne à Lyon 2 | Morgane Laroche',
   description: 'Quelles sont les champs et les modalités d\'intervention du psychologue clinicien ? Description du cadre thérapeutique. Déontologie et principes fondamentaux.'
 };
 

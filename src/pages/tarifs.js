@@ -2,7 +2,7 @@ import React from 'react';
 import Meta from '../modules/meta';
 
 const metadata = {
-  title: 'Tarifs | Psychologue clinicienne | Morgane Laroche',
+  title: 'Tarifs | Psychologue clinicienne à Lyon 2 | Morgane Laroche',
   description: 'Tarifs. Modalités de paiement. Remboursement des consultations. Retards et Annulations.'
 };
 

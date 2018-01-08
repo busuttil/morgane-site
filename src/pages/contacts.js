@@ -4,8 +4,8 @@ import Link from 'gatsby-link';
 import './contact.scss';
 
 const metadata = {
-  title: 'Contacts | Psychologue clinicienne | Morgane Laroche',
-  description: 'Adresse du cabinet. Coordonnées. Plan d’accès. Lien du site. Matricules.'
+  title: 'Contacts | Psychologue clinicienne à Lyon 2 | Morgane Laroche',
+  description: 'Adresse du cabinet. Coordonnées. Plan d’accès. Lien du site. Matricules. Mon cabinet situé au 47 Rue de la bourse, dans Lyon 2, à deux pas du métro Cordeliers.'
 };
 
 const Contact = () => (
@@ -26,7 +26,7 @@ const Contact = () => (
             <li>
               47 Rue de la bourse
             </li>
-            <li>69002 LYON</li>
+            <li>LYON 2</li>
             <li>Métro Cordeliers</li>
             <li><Link className='container__block-link' target="_blank" to="http://www.tcl.fr/var/tcl/storage/original/application/3874382c3c5c6bca67ba94b1e528062a.pdf">Plan d’accès </Link></li>
           </ul>

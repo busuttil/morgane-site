@@ -4,7 +4,7 @@ import Link from 'gatsby-link';
 
 const metadata = {
   title: 'Me connaitre | Psychologue clinicienne | Morgane Laroche',
-  description: 'Ma formation. Spécialisations, approches et méthodes. Quelques axes de travail.'
+  description: 'Ma formation de psychologue. Spécialisations, approches et méthodes. Quelques axes de travail. Psychologue Lyon 2'
 };
 
 const MeConnaitre = () => (
