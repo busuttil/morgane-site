@@ -14,7 +14,7 @@ const QuiConsulter = () => (
       <p className='u-paragraphe'>
         Couramment, beaucoup se questionnent sur ce qui différencie le psychologue du psychiatre, du
         psychanalyste et du psychothérapeute. Ces fonctions ne sont pas antinomiques. En effet, il est possible
-        d’avoir le titre de psychologue et d’être à la fois psychanalyste.
+        d’avoir le titre de psychologue ou de psychiatre et d’être à la fois psychanalyste.
       </p>
       <p className='u-paragraphe'>
         Si ces professionnels occupent une fonction commune consistant à soigner le psychisme, ils différent sur
@@ -37,13 +37,8 @@ const QuiConsulter = () => (
         annonce de diagnostic, traumatisme …)
       </p>
       <p className='u-paragraphe'>
-        En France, le titre de psychothérapeute n’est pas protégé. Certaines universités étrangères forment les
-        étudiants à des techniques psychothérapiques mais en France, cette formation est extra-universitaire et
-        correspond à une spécialisation postérieure au diplôme (diplôme universitaire et interuniversitaire).
-      </p>
-      <p className='u-paragraphe u-mb'>
-        Cela n’exclut pas le fait qu’il s’agit d’une pratique possédant une intention thérapeutique, un champ
-        d’expertise et un lien direct avec une conception claire et déontologique de l’humain.
+        Depuis 2010, l'usage du titre de psychothérapeute est réglementé. Pour prétendre au titre, il faut remplir certaines conditions (obtention d'un diplôme de psychologie, de médecine, etc.)
+        énoncées dans le Décret n°2010-534 et obtenir l'autorisation d'usage. Celle ci est délivrée par l'Agence Régionale de la Santé.
       </p>
       <h2 className='container__block-subtitle'>La psychanalyse</h2>
       <p className='u-paragraphe'>

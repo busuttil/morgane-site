@@ -17,7 +17,7 @@ const Tarifs = () => (
             <span className='u-bold'>Fréquence</span> : chaque semaine ou toutes les deux semaines, à définir en fonction de vos besoins et de
             vos possibilités financières
           </li>
-          <li><span className='u-bold'>Durée de l’entretien</span> : 45 minutes</li>
+          <li><span className='u-bold'>Durée de l’entretien</span> : 45 minutes à 1 heure</li>
           <li><span className='u-bold'>Honoraires</span> : 50 € (40 € pour les étudiants et demandeurs d’emplois)</li>
         </ul>
       </div>
