@@ -36,7 +36,7 @@ const QuiConsulter = () => (
         purement psychologique ou s’exprimer comme la répercussion d’un événement autre (deuil, rupture,
         annonce de diagnostic, traumatisme …)
       </p>
-      <p className='u-paragraphe'>
+      <p className='u-paragraphe u-mb'>
         Depuis 2010, l'usage du titre de psychothérapeute est réglementé. Pour prétendre au titre, il faut remplir certaines conditions (obtention d'un diplôme de psychologie, de médecine, etc.)
         énoncées dans le Décret n°2010-534 et obtenir l'autorisation d'usage. Celle ci est délivrée par l'Agence Régionale de la Santé.
       </p>

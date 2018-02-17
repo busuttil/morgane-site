@@ -1,5 +1,4 @@
 import React from 'react';
-import Link from 'gatsby-link';
 import Meta from '../modules/meta';
 
 import './home.scss';
@@ -32,7 +31,7 @@ const IndexPage = () => (
   				demander l’aide d’un professionnel.
   			</p>
   			<h2 className='u-paragraphe u-text__mea'>
-  				Le psychologue est le professionnel qui intervient lorsque vous ressentez une souffrance, un mal-être.
+  				Le psychologue est l’un des professionnels qui peut intervenir lorsque vous traversez une période difficile occasionnant une souffrance, lorsque vous exprimez une volonté de changement ou plus simplement, le souhait de mieux vous connaître.
   			</h2>
   			<p className='u-paragraphe'>
   				Il peut vous accompagner dans une <span className='u-bold'>difficulté ponctuelle</span> (certains parleraient de « thérapie de soutien ») en
@@ -51,9 +50,9 @@ const IndexPage = () => (
   			</p>
   			<h2 className='u-paragraphe u-text__mea'>
   				Mon cabinet se situe à Cordeliers, dans&nbsp;
-  				<Link className='container__block-link' target='_blank' to='http://www.tcl.fr/var/tcl/storage/original/application/3874382c3c5c6bca67ba94b1e528062a.pdf'>
+  				<a className='container__block-link' target='_blank' href='http://www.tcl.fr/var/tcl/storage/original/application/3874382c3c5c6bca67ba94b1e528062a.pdf'>
             le deuxième arrondissement de Lyon.
-  				</Link>
+  				</a>
   			</h2>
   		</div>
   	</div>
