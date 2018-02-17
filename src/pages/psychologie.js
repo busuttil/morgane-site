@@ -1,6 +1,5 @@
 import React from 'react';
 import Meta from '../modules/meta';
-import Link from 'gatsby-link';
 
 const metadata = {
   title: 'Qu\'est-ce qu\'un psychologue clinicien ? | Psychologue clinicienne à Lyon 2 | Morgane Laroche',
@@ -57,7 +56,7 @@ const Psychologue = () => (
 			</p>
 			<p className='u-paragraphe'>
         Par ailleurs, l’exercice est soumis à un certain nombre de règles que vous pouvez consulter via ce lien :
-        <Link className='container__block-link u-bold' to='http://www.cncdp.fr/index.php/code-de-deontologie/code-de-deontologie-2012' target='_blank'> Code de déontologie des psychologues</Link>.
+        <a className='container__block-link u-bold' href='http://www.cncdp.fr/index.php/code-de-deontologie/code-de-deontologie-2012' target='_blank'> Code de déontologie des psychologues</a>.
 			</p>
 			<p className='u-paragraphe'>
 				Quelques principes fondamentaux :

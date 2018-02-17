@@ -1,6 +1,5 @@
 import React from 'react';
 import Meta from '../modules/meta';
-import Link from 'gatsby-link';
 import './contact.scss';
 
 const metadata = {
@@ -28,7 +27,7 @@ const Contact = () => (
             </li>
             <li>LYON 2</li>
             <li>Métro Cordeliers</li>
-            <li><Link className='container__block-link' target="_blank" to="http://www.tcl.fr/var/tcl/storage/original/application/3874382c3c5c6bca67ba94b1e528062a.pdf">Plan d’accès </Link></li>
+            <li><a className='container__block-link' target="_blank" href="http://www.tcl.fr/var/tcl/storage/original/application/3874382c3c5c6bca67ba94b1e528062a.pdf">Plan d’accès </a></li>
           </ul>
 
           <ul className="contact-item__list">
