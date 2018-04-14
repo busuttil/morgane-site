@@ -1,5 +1,5 @@
 import React from 'react';
-import illustration from '../images/etape-therapie.jpg';
+import illustration from '../images/psychologue-lyon.jpg';
 import Meta from '../modules/meta';
 
 const metadata = {
@@ -13,7 +13,9 @@ const Therapie = () => (
     <h1 className='container__block-title'>LES ÉTAPES DE LA THÉRAPIE</h1>
     <div className='container__content container__content-therapie'>
       <div className='container__illustration-left'>
-        <img itemProp='image' src={illustration} alt='les étapes de la thérapie' />
+        <img itemProp='image' src={illustration}
+          alt='les étapes de la thérapie, lyon psychologue, psychologue lyon, avis psychologue, psychologue clinicienne à Lyon 2, cabinet de psychologie à Lyon, psychologue clinicienne'
+        />
       </div>
       <div className='container__block-right'>
         <p className='u-paragraphe'>

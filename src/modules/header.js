@@ -96,6 +96,9 @@ class Header extends Component {
                 <NavLink activeClassName="header__menu-item--selected" to="/tarifs">Tarifs</NavLink>
               </li>
               <li className="header__menu-item" onClick={this.handleClick.bind(this)}>
+                <NavLink activeClassName="header__menu-item--selected" to="/galerie">Galerie</NavLink>
+              </li>
+              <li className="header__menu-item" onClick={this.handleClick.bind(this)}>
                 <NavLink activeClassName="header__menu-item--selected" to="/contacts">Contacts</NavLink>
               </li>
             </ul>

@@ -30,7 +30,7 @@ const MeConnaitre = () => (
       <h2 className='container__block-subtitle'>Quelques axes de travail</h2>
 			<p className='u-paragraphe'>
         Ma pratique s’inspire grandement du courant analytique en laissant libre court à la parole, aux choses que l’on ne
-        dit pas au premier abord mais qui s’entendent au-delà des mots. Mon écoute laisse une importante place à l'approche des processus inconscients, à la
+        dit pas au premier abord mais qui s’entendent au-delà des mots. Mon écoute laisse une place importante à l'approche des processus inconscients, à la
         rêverie, aux émotions que l’on retient ou au contraire, qui nous débordent.
 			</p>
 			<p className='u-paragraphe'>

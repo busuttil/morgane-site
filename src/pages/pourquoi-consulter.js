@@ -1,5 +1,5 @@
 import React from 'react';
-import illustration from '../images/pourquoi-consulter.jpg';
+import illustration from '../images/psychologue-a-lyon.jpg';
 import Meta from '../modules/meta';
 
 const metadata = {
@@ -14,7 +14,10 @@ const PourquoiConsulter = () => (
   		<h1 className='container__block-title'>POURQUOI CONSULTER ?</h1>
   		<div className='container__content'>
   			<div className='container__illustration'>
-  				<img itemProp='image' src={illustration} alt='pourquoi consulter' />
+  				<img
+            itemProp='image'
+            src={illustration}
+      alt='pourquoi consulter un psychologue, lyon psychologue, psychologue lyon, avis psychologue, psychologue clinicienne à Lyon 2, cabinet de psychologie à Lyon, psychologue clinicienne' />
   			</div>
   			<div className='container__block container__block-intro'>
   				<p className='u-paragraphe'>

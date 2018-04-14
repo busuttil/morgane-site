@@ -13,7 +13,7 @@ const Footer = () => (
     <div className='footer__container'>
       <div className='footer__container-item'>
         <div className='item__content'>
-          <img src={logoCalendar} alt='horraire' />
+          <img src={logoCalendar} alt='Ouverture cabinet psychologue lyon, lyon psychologue, psychologue lyon, avis psychologue, psychologue clinicienne à Lyon 2, cabinet de psychologie à Lyon, psychologue clinicienne' />
         </div>
         <p>Consultations sur rendez-vous</p>
         <ul className='u-list-style'>
@@ -24,7 +24,7 @@ const Footer = () => (
       </div>
       <div className='footer__container-item'>
         <div className='item__content'>
-          <img src={logoLocation} alt='adresse' />
+          <img src={logoLocation} alt='adresse cabinet psychologue lyon, lyon psychologue, psychologue lyon, avis psychologue, psychologue clinicienne à Lyon 2, cabinet de psychologie à Lyon, psychologue clinicienne' />
         </div>
         <address itemProp="address" itemScope itemType="http://schema.org/PostalAddress">
           <span itemProp='streetAddress'>47 Rue de la bourse </span><br />
@@ -35,7 +35,7 @@ const Footer = () => (
       </div>
       <div className='footer__container-item'>
         <div className='item__content'>
-          <img src={logoPhone} alt='numéro de téléphone' />
+          <img src={logoPhone} alt='contact psychologue lyon, lyon psychologue, psychologue lyon, avis psychologue, psychologue clinicienne à Lyon 2, cabinet de psychologie à Lyon, psychologue clinicienne' />
         </div>
         <a className='footer__container-link' href='tel:+33674318234' itemProp='telephone'>Tél: 06.74.31.82.34 </a>
         <a className='footer__container-link footer__container-link--ellipsis' href="mailto:psychologue.morgane.laroche@gmail.com" itemProp='email'>psychologue.morgane.laroche@gmail.com</a>

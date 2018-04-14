@@ -29,7 +29,8 @@ const JsonLd = () => {
         "https://www.psychologue.net/cabinets/morgane-laroche",
         "https://annuaire.118712.fr/Rhone-69/Lyon-69002/Laroche-morgane-(psychologue-clinicienne)-0674318234_9E0020S00004F90300C90751S",
         "http://www.psychologuelyon.com/psychologue/morgane-laroche-psychologue-clinicienne-a-lyon.html",
-        "https://www.yelp.fr/biz/morgane-laroche-lyon?osq=Psychologue"
+        "https://www.yelp.fr/biz/morgane-laroche-lyon?osq=Psychologue",
+        "https://www.gralon.net/annuaire/sante-et-beaute/medecine-douce/page-web-psychologue-clinicienne-a-lyon---cordeliers-169492.html"
       ]
     },
     {
