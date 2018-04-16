@@ -1,10 +1,9 @@
 import React from 'react';
 import Helmet from 'react-helmet';
 import favicon from '../images/favicon.ico';
-import cover from '../images/cover.jpg';
 
 const Meta = ({ title, description }) => {
-  const image = `http://psychologue-morganelaroche.fr${cover}`;
+  const image = `https://lh3.googleusercontent.com/-l1wbEP9ZRis/Wgcr_9hmcgI/AAAAAAAAABc/iAaz_bRyO2k9-Fkf5fFZ18Dd4OIkgRmHgCJkCGAYYCw/s1000-fcrop64=1,00000000ffffffff/canstockphoto16651677.jpg`;
   let canonical;
   if (typeof window !== `undefined`) {
    canonical = document.location.href;

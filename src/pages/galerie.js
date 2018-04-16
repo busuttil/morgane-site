@@ -1,6 +1,5 @@
 import React from 'react';
 import Meta from '../modules/meta';
-import Link from 'gatsby-link';
 import './galerie.scss';
 
 import cabinetAttente from '../images/cabinet/salle-attente-cabinet-psychologue-lyon.jpg';
@@ -13,7 +12,7 @@ import cabinetBureau3 from '../images/cabinet/bureau-cabinet-psychologue-lyon_3.
 import cabinetBureau4 from '../images/cabinet/bureau-cabinet-psychologue-lyon_4.jpg';
 
 const metadata = {
-  title: 'Cabinet Psychologue à lyon | Cordeliers 69002 | Morgane Laroche',
+  title: 'Cabinet Psychologue à lyon | Psychologue Lyon 69002 | Morgane Laroche',
   description: 'Je vous reçois en consultations individuelles (enfants, adolescents, adultes) sur rendez-vous, les Lundis après-midi, Mercredis et Samedis matin. Les consultations ont lieu dans mon cabinet situé au 47 Rue de la bourse, dans le deuxième arrondissement de Lyon, à deux pas de l’arrêt de métro Cordeliers.'
 };
 

@@ -95,6 +95,14 @@ const JsonLd = () => {
       },
       {
         "@type": "ListItem",
+        "position": 9,
+        "item": {
+          "@id": "http://psychologue-morganelaroche.fr/galerie",
+          "name": "Galerie"
+        }
+      },
+      {
+        "@type": "ListItem",
         "position": 8,
         "item": {
           "@id": "http://psychologue-morganelaroche.fr/contacts",

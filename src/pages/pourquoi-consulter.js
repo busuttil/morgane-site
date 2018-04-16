@@ -3,7 +3,7 @@ import illustration from '../images/psychologue-a-lyon.jpg';
 import Meta from '../modules/meta';
 
 const metadata = {
-  title: 'Pourquoi consulter ? | Psychologue clinicienne à Lyon 2 | Morgane Laroche',
+  title: 'Pourquoi consulter un psychologue à lyon ? | Psychologue clinicienne à Lyon 2 | Morgane Laroche',
   description: 'Quelles émotions, situations ou événements de vie peuvent nous conduire à venir consulter un psychologue ? Une liste non-exhaustive. Spécificité de cette démarche.'
 };
 

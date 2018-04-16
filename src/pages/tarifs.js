@@ -1,9 +1,10 @@
 import React from 'react';
+import Link from 'gatsby-link';
 import Meta from '../modules/meta';
 
 const metadata = {
   title: 'Tarifs | Psychologue clinicienne à Lyon 2 | Morgane Laroche',
-  description: 'Tarifs. Modalités de paiement. Remboursement des consultations. Retards et Annulations.'
+  description: 'Mes tarifs à lyon. Modalités de paiement. Remboursement des consultations. Retards et Annulations.'
 };
 
 const Tarifs = () => (
@@ -43,6 +44,7 @@ const Tarifs = () => (
           suivante.
         </p>
       </div>
+      <Link className="container__block-link u-font-middle" to="/contacts">Me contacter pour une consultation à lyon</Link>
     </div>
   </div>
 );

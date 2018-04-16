@@ -2,7 +2,7 @@ import React from 'react';
 import Meta from '../modules/meta';
 
 const metadata = {
-  title: 'Me connaitre | Psychologue clinicienne | Morgane Laroche',
+  title: 'Me connaitre | Psychologue lyon | Cabinet de Psychologue | Morgane Laroche',
   description: 'Ma formation de psychologue. Spécialisations, approches et méthodes. Quelques axes de travail. Psychologue Lyon 2'
 };
 
@@ -13,7 +13,7 @@ const MeConnaitre = () => (
 			<h1 className='container__block-title container__block-title--nomarge'>ME CONNAITRE</h1>
       <h2 className='container__block-subtitle'>Ma formation</h2>
 			<p className='u-paragraphe'>
-        Diplômée d’un Master 2 en Psychopathologie et Psychologie clinique <a className='container__block-link' href='http://www.univ-lyon2.fr/' target='_blank'>(Université Lumière de Lyon II)</a>,
+        Diplômée d’un Master 2 en <a className="u-text-decoration" href="https://www.linkedin.com/in/morgane-laroche-a8700b138/" alt="psychologue lyon" target="_blank">Psychopathologie</a> et Psychologie clinique <a className='container__block-link' href='http://www.univ-lyon2.fr/' target='_blank'>(Université Lumière de Lyon II)</a>,
         je me suis d’abord familiarisée à l’approche intégrative
         au cours de mes trois années de Licence réalisées à la <a  className='container__block-link' href='https://www.u-bourgogne.fr/' target='_blank'>faculté de Bourgogne</a>.
         Cette approche propose de s’appuyer sur différentes méthodes, courants de pensées et outils en mettant l’accent sur leur
@@ -29,7 +29,7 @@ const MeConnaitre = () => (
 			</p>
       <h2 className='container__block-subtitle'>Quelques axes de travail</h2>
 			<p className='u-paragraphe'>
-        Ma pratique s’inspire grandement du courant analytique en laissant libre court à la parole, aux choses que l’on ne
+        Ma pratique s’inspire grandement du <a className="container__block-link" href="https://fr.wikipedia.org/wiki/Psychologie_analytique" target="_blank">courant analytique</a> en laissant libre court à la parole, aux choses que l’on ne
         dit pas au premier abord mais qui s’entendent au-delà des mots. Mon écoute laisse une place importante à l'approche des processus inconscients, à la
         rêverie, aux émotions que l’on retient ou au contraire, qui nous débordent.
 			</p>

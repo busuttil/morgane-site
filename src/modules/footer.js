@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import JsonLd from './jsonLd';
 
 import logoCalendar from '../images/calendar.svg';
@@ -30,7 +29,7 @@ const Footer = () => (
           <span itemProp='streetAddress'>47 Rue de la bourse </span><br />
           <span itemProp='postalCode'>69002</span><span itemProp='addressLocality'> LYON</span> <br />
           Métro Cordeliers <br />
-          <Link className='footer__container-link' target='_blank' to='http://www.tcl.fr/var/tcl/storage/original/application/3874382c3c5c6bca67ba94b1e528062a.pdf'>Plan d’accès </Link>
+          <a className='footer__container-link' target='_blank' href='http://www.tcl.fr/var/tcl/storage/original/application/3874382c3c5c6bca67ba94b1e528062a.pdf' alt='Cabinet psychologue'>Plan d’accès </a>
         </address>
       </div>
       <div className='footer__container-item'>

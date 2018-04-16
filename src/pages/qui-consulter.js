@@ -4,7 +4,7 @@ import Link from 'gatsby-link';
 
 
 const metadata = {
-  title: 'Qui consulter ? | Psychologue clinicienne à Lyon 2 | Morgane Laroche',
+  title: 'Qui consulter à lyon ? | Psychologue clinicienne à Lyon 2 | Morgane Laroche',
   description: 'Soins psychiques : différents professionnels. Quels sont-ils ? Quels sont leurs champs et leurs modalités d\'intervention ? Quelles formations ont-ils suivies ?'
 };
 

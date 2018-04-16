@@ -1,0 +1,53 @@
+@import '../styles/variables.scss';
+
+.social-link {
+  background-color: $theme-color-2;
+  padding: 10px;
+}
+
+.social-link__container {
+  display: flex;
+
+  @include at-media('<medium') {
+    flex-direction: column;
+  }
+}
+.social-link__container-name {
+
+  @include at-media('<medium') {
+    margin: auto;
+  }
+
+  h1 {
+    font-size: 16px;
+    font-family: $font-crimson;
+    font-weight: 100;
+    color: white;
+
+    @include at-media('<medium') {
+      font-size: 12px;
+    }
+  }
+}
+
+.social-link__container-link {
+  margin-left: auto;
+
+  @include at-media('<medium') {
+    margin: auto;
+  }
+}
+
+.link {
+  &:hover,
+  &:focus {
+    cursor: pointer;
+  }
+
+  img {
+    width: 20px;
+    height: 20px;
+
+    margin: 5px;
+  }
+}

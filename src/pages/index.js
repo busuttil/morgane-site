@@ -5,7 +5,7 @@ import Link from 'gatsby-link';
 import './home.scss';
 
 const metadata = {
-  title: 'Psychologue Clinicienne | Cordeliers, Lyon 2ème | Morgane Laroche',
+  title: 'Psychologue Clinicienne lyon | Cordeliers, Lyon 2ème | Morgane Laroche',
   description: 'Je vous reçois en consultations individuelles (enfants, adolescents, adultes) sur rendez-vous, les Lundis après-midi, Mercredis et Samedis matin. Les consultations ont lieu dans mon cabinet situé au 47 Rue de la bourse, dans le deuxième arrondissement de Lyon, à deux pas de l’arrêt de métro Cordeliers.'
 };
 
@@ -32,7 +32,7 @@ const IndexPage = () => (
   				demander l’aide d’un professionnel.
   			</p>
   			<h2 className='u-paragraphe u-text__mea'>
-  				Le <Link className="u-text-decoration" to="/therapie">psychologue</Link> est l’un des professionnels qui peut intervenir lorsque vous traversez une période difficile occasionnant une souffrance, lorsque vous exprimez une volonté de changement ou plus simplement, le souhait de mieux vous connaître.
+  				Le <Link className="u-text-decoration" to="/me-connaitre">psychologue</Link> est l’un des professionnels qui peut intervenir lorsque vous traversez une période difficile occasionnant une souffrance, lorsque vous exprimez une volonté de changement ou plus simplement, le souhait de mieux vous connaître.
   			</h2>
   			<p className='u-paragraphe'>
   				Il peut vous accompagner dans une <span className='u-bold'>difficulté ponctuelle</span> (certains parleraient de « thérapie de soutien ») en
@@ -51,7 +51,7 @@ const IndexPage = () => (
   			</p>
   			<h2 className='u-paragraphe u-text__mea'>
   				Mon cabinet se situe à Cordeliers, dans&nbsp;
-  				<a className='container__block-link' target='_blank' href='http://www.tcl.fr/var/tcl/storage/original/application/3874382c3c5c6bca67ba94b1e528062a.pdf'>
+  				<a className='container__block-link' target='_blank' href='http://www.tcl.fr/var/tcl/storage/original/application/3874382c3c5c6bca67ba94b1e528062a.pdf' alt='adresse cabinet psychologue lyon'>
             le deuxième arrondissement de Lyon.
   				</a>
   			</h2>

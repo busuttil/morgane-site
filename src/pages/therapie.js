@@ -1,9 +1,10 @@
 import React from 'react';
+import Link from 'gatsby-link';
 import illustration from '../images/psychologue-lyon.jpg';
 import Meta from '../modules/meta';
 
 const metadata = {
-  title: 'Les étapes de la thérapie | Psychologue clinicienne à Lyon 2 | Morgane Laroche',
+  title: 'Les étapes de la thérapie | Psychologue à Lyon 2 | Cabinet psychologue lyon',
   description: 'Comment se déroule la première consultation ? Faire connaissance. Définir et clarifier votre demande. Définir un cadre. Durée de la thérapie.'
 };
 
@@ -42,7 +43,7 @@ const Therapie = () => (
           venir soutenir la thérapie …
         </p>
         <p className='u-paragraphe'>
-          A l’issue de ce premier contact, nous convenons ensemble de la pertinence et la possibilité de débuter une thérapie.
+          A l’issue de ce premier contact, nous convenons ensemble de la pertinence et la possibilité de <Link className="u-text-decoration" to="/me-connaitre">débuter une thérapie</Link>.
         </p>
         <p className='u-paragraphe'>
           Si tel est votre souhait, nous définissons un <span className='u-bold'>cadre</span> : fréquence des entretiens et honoraires.

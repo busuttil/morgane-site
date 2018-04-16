@@ -46,7 +46,6 @@
 .header--opened {
   position: fixed;
   top: 0;
-  height: 0;
   height: 100%;
   background-color: rgba(159, 143, 117, 0.90);
 
@@ -75,7 +74,7 @@
     display: flex;
 
     &:hover,
-    &:focus, {
+    &:focus {
       background-color: $theme-color-2;
     }
   }

@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'gatsby-link';
 import Meta from '../modules/meta';
 
 const metadata = {
@@ -72,7 +73,7 @@ const Psychologue = () => (
 			<h2 className='container__block-subtitle'>Un psychologue, des psychologues</h2>
       <p className='u-paragraphe'>
         Les enseignements de la psychologie et sa pratique sont nombreux et diffèrent d’un praticien à l’autre.
-        Chaque psychologue s’appuie sur une ou plusieurs méthode(s), courant(s) de pensée, et inspiration(s)
+        Chaque <Link className="u-text-decoration" to="/me-connaitre">psychologue</Link> s’appuie sur une ou plusieurs méthode(s), courant(s) de pensée, et inspiration(s)
         théorique(s) qui lui parlent, auxquels il a été sensibilisé tout au long de sa formation et de son parcours.
       </p>
       <p className='u-paragraphe'>
