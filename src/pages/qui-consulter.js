@@ -1,5 +1,7 @@
 import React from 'react';
 import Meta from '../modules/meta';
+import Link from 'gatsby-link';
+
 
 const metadata = {
   title: 'Qui consulter ? | Psychologue clinicienne à Lyon 2 | Morgane Laroche',
@@ -55,6 +57,10 @@ const QuiConsulter = () => (
         En France, son titre n’est pas protégé. En revanche, il est possible de se former à la psychanalyse en
         devenant membre d’une société psychanalytique, impliquant comme condition <span className='u-italic'>sine qua non</span> l’expérience de
         son analyse personnelle.
+      </p>
+      <h1 className='container__block-subtitle container__block-subtitle--highlighted'>La psychologie</h1>
+      <p className='u-paragraphe u-mb'>
+        Consulter la page "<Link className="container__block-link" to="/psychologie">Qu'est ce qu'un psychologue clinicien ?</Link>".
       </p>
     </div>
   </div>

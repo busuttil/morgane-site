@@ -9,12 +9,20 @@
   height: 300px;
 }
 
+.head__content {
+  text-decoration: none;
+}
+
 .head__content-title {
   font-family: $font-allura;
+  font-weight: bold;
   font-size: 55px;
+  line-height: 1.5;
+  color: black;
 
   @include at-media ('<medium') {
     font-size: 40px;
+    line-height: 0;
   }
 }
 
@@ -29,6 +37,7 @@
 
 .head__content-information {
   font-size: 24px;
+  color: black;
 
   @include at-media ('<medium') {
     font-size: 18px;

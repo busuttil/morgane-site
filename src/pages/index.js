@@ -1,5 +1,6 @@
 import React from 'react';
 import Meta from '../modules/meta';
+import Link from 'gatsby-link';
 
 import './home.scss';
 
@@ -31,7 +32,7 @@ const IndexPage = () => (
   				demander l’aide d’un professionnel.
   			</p>
   			<h2 className='u-paragraphe u-text__mea'>
-  				Le psychologue est l’un des professionnels qui peut intervenir lorsque vous traversez une période difficile occasionnant une souffrance, lorsque vous exprimez une volonté de changement ou plus simplement, le souhait de mieux vous connaître.
+  				Le <Link className="u-text-decoration" to="/therapie">psychologue</Link> est l’un des professionnels qui peut intervenir lorsque vous traversez une période difficile occasionnant une souffrance, lorsque vous exprimez une volonté de changement ou plus simplement, le souhait de mieux vous connaître.
   			</h2>
   			<p className='u-paragraphe'>
   				Il peut vous accompagner dans une <span className='u-bold'>difficulté ponctuelle</span> (certains parleraient de « thérapie de soutien ») en
@@ -41,12 +42,12 @@ const IndexPage = () => (
   			<p className='u-paragraphe'>
   				Il peut également vous accompagner dans un processus de <span className='u-bold'>changement</span> (certains parleraient de « psychothérapie ») qui peut s’exprimer de façon très différente selon les individus et les situations.
   			</p>
-  			<p className='u-paragraphe'>Quelle que soit votre demande, le psychologue vous accueille dans un <span className='u-bold'>cadre protégé</span>, vous écoute et vous
+  			<p className='u-paragraphe'>Quelle que soit votre demande, le <Link className="u-text-decoration" to="/therapie">psychologue</Link> vous accueille dans un <span className='u-bold'>cadre protégé</span>, vous écoute et vous
   				accompagne dans le respect de la <span className='u-bold'>neutralité</span>, sans jugement, tout en respectant le principe de
   				<span className='u-bold'> confidentialité</span>.
   			</p>
-  			<p className='u-paragraphe'>Je vous reçois en
-  				<span className='u-bold'> consultations individuelles (enfants, adolescents, adultes)</span> les Lundis après-midi, Mercredis et Samedis matin.
+  			<p className='u-paragraphe'>Je vous reçois en&nbsp;
+  				<span className='u-bold'><Link className="u-text-decoration" to="/contacts">consultations individuelles (enfants, adolescents, adultes)</Link></span> les Lundis après-midi, Mercredis et Samedis matin.
   			</p>
   			<h2 className='u-paragraphe u-text__mea'>
   				Mon cabinet se situe à Cordeliers, dans&nbsp;

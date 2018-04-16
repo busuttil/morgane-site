@@ -33,6 +33,10 @@
         <changefreq>weekly</changefreq>
     </url>
     <url>
+        <loc>http://psychologue-morganelaroche.fr/galerie</loc>
+        <changefreq>weekly</changefreq>
+    </url>
+    <url>
         <loc>http://psychologue-morganelaroche.fr/contacts</loc>
         <changefreq>weekly</changefreq>
     </url>
