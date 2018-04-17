@@ -3,7 +3,7 @@ import Meta from '../modules/meta';
 
 const metadata = {
   title: 'Me connaitre | Psychologue lyon | Cabinet de Psychologue | Morgane Laroche',
-  description: 'Ma formation de psychologue. Spécialisations, approches et méthodes. Quelques axes de travail. Psychologue Lyon 2'
+  description: 'Psychologue lyon | Ma formation de psychologue. Spécialisations, approches et méthodes. Quelques axes de travail. Psychologue Lyon 2'
 };
 
 const MeConnaitre = () => (
