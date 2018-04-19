@@ -74,31 +74,31 @@ class Header extends Component {
             <div className="header__menu-icons" onClick={this.handleClick.bind(this)} />
             <ul className="header__menu">
               <li className="header__menu-item" onClick={this.handleClick.bind(this)}>
-                <NavLink exact activeClassName="header__menu-item--selected" to="/">Accueil</NavLink>
+                <NavLink exact activeClassName="header__menu-item--selected" to="/" alt="accueil psychologue lyon">Accueil</NavLink>
               </li>
               <li className="header__menu-item" onClick={this.handleClick.bind(this)}>
-                <NavLink activeClassName="header__menu-item--selected" to="/psychologie">Qu'est-ce qu'un psychologue <span>clinicien ?</span></NavLink>
+                <NavLink activeClassName="header__menu-item--selected" to="/psychologie" alt=" Qu'est-ce qu'un psychologue">Qu'est-ce qu'un psychologue <span>clinicien ?</span></NavLink>
               </li>
               <li className="header__menu-item" onClick={this.handleClick.bind(this)}>
-                <NavLink activeClassName="header__menu-item--selected" to="/me-connaitre">Me connaître</NavLink>
+                <NavLink activeClassName="header__menu-item--selected" to="/me-connaitre" alt="psychologue clinicienne lyon, psychologue lyon">Me connaître</NavLink>
               </li>
               <li className="header__menu-item" onClick={this.handleClick.bind(this)}>
-                <NavLink activeClassName="header__menu-item--selected" to="/pourquoi-consulter">Pourquoi consulter ?</NavLink>
+                <NavLink activeClassName="header__menu-item--selected" to="/pourquoi-consulter" alt="pourquoi consulter un psychologue">Pourquoi consulter ?</NavLink>
               </li>
               <li className="header__menu-item" onClick={this.handleClick.bind(this)}>
-                <NavLink activeClassName="header__menu-item--selected" to="/qui-consulter">Qui consulter ?</NavLink>
+                <NavLink activeClassName="header__menu-item--selected" to="/qui-consulter" alt="qui consulter à lyon">Qui consulter ?</NavLink>
               </li>
               <li className="header__menu-item" onClick={this.handleClick.bind(this)}>
-                <NavLink activeClassName="header__menu-item--selected" to="/therapie">Thérapie</NavLink>
+                <NavLink activeClassName="header__menu-item--selected" to="/therapie" alt="thérapie, psychologue lyon">Thérapie</NavLink>
               </li>
               <li className="header__menu-item" onClick={this.handleClick.bind(this)}>
-                <NavLink activeClassName="header__menu-item--selected" to="/tarifs">Tarifs</NavLink>
+                <NavLink activeClassName="header__menu-item--selected" to="/tarifs" alt="Tarifs, cabinet psy lyon, psychologue lyon">Tarifs</NavLink>
               </li>
               <li className="header__menu-item" onClick={this.handleClick.bind(this)}>
-                <NavLink activeClassName="header__menu-item--selected" to="/galerie">Galerie</NavLink>
+                <NavLink activeClassName="header__menu-item--selected" to="/galerie" alt="photo cabinet psychologue lyon, psy lyon">Galerie</NavLink>
               </li>
               <li className="header__menu-item" onClick={this.handleClick.bind(this)}>
-                <NavLink activeClassName="header__menu-item--selected" to="/contacts">Contacts</NavLink>
+                <NavLink activeClassName="header__menu-item--selected" to="/contacts" alt="adresse du cabinet psychologue à lyon, psy lyon 2">Contacts</NavLink>
               </li>
             </ul>
           </div>

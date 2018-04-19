@@ -5,7 +5,7 @@ import './head.scss';
 
 const Head = () => (
   <div className='head'>
-    <Link className='head__content' to="/">
+    <Link className='head__content' to="/" alt="Psychologue Clinicienne à Lyon">
       <p className='head__content-title'>Morgane Laroche</p>
       <h1 className='head__content-description'>Psychologue Clinicienne à Lyon</h1>
       <p className='head__content-information'>Enfants - Adolescents - Adultes</p>
